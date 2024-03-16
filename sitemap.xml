@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/</loc>
+         <loc>https://dmccreary.github.io/mkdocs-template/</loc>
          <lastmod>2024-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/contact/</loc>
+         <loc>https://dmccreary.github.io/mkdocs-template/contact/</loc>
          <lastmod>2024-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/glossary/</loc>
+         <loc>https://dmccreary.github.io/mkdocs-template/glossary/</loc>
          <lastmod>2024-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/how-we-built-this-site/</loc>
+         <loc>https://dmccreary.github.io/mkdocs-template/how-we-built-this-site/</loc>
          <lastmod>2024-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/license/</loc>
+         <loc>https://dmccreary.github.io/mkdocs-template/license/</loc>
          <lastmod>2024-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/GITHUB_REPO_NAME/references/</loc>
+         <loc>https://dmccreary.github.io/mkdocs-template/references/</loc>
          <lastmod>2024-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
