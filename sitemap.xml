@@ -6,6 +6,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://dmccreary.github.io/mkdocs-template/checklist/</loc>
+         <lastmod>2024-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/mkdocs-template/code-highlight-test/</loc>
+         <lastmod>2024-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://dmccreary.github.io/mkdocs-template/contact/</loc>
          <lastmod>2024-03-16</lastmod>
          <changefreq>daily</changefreq>
