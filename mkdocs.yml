@@ -36,6 +36,7 @@ theme:
     - navigation.top
     # this adds the prev and next icons in the footer
     - navigation.footer
+    - content.action.edit
 plugins:
   - search
 #  - social
