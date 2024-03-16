@@ -1,7 +1,7 @@
 site_name: Mkdocs Template Site
 site_description: 'DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial'
 site_author: 'Dan McCreary'
-# repo_name: 'GitHub Repo'
+repo_name: 'GitHub Repo'
 site_url: 'https://dmccreary.github.io/mkdocs-template/'
 repo_url: 'https://github.com/dmccreary/mkdocs-template'
 edit_uri: 'blob/master/docs'
