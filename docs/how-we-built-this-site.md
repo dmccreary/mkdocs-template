@@ -81,6 +81,21 @@ in the link.  Since Material supported this, we used the Material theme.
 You can see our [ChatGPT Design Decision Analysis](https://chat.openai.com/share/d152cc79-73eb-4112-8be2-f03459d7b312) if you want
 to check our decision process.
 
+## Enable Edit Icon
+
+To enable the Edit icon on all pages, you must add
+the edit_uri and the content.action.edit under the theme features area.
+
+```yaml
+edit_uri: edit/master/docs/
+```
+
+```yaml
+    theme:
+        features:
+            - content.action.edit
+```
+
 ## Conda vs VENV
 
 There are two choices for virtual environments.  We can
