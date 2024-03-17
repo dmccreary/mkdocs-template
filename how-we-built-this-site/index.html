@@ -407,6 +407,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#enable-edit-icon" class="md-nav__link">
+    Enable Edit Icon
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#conda-vs-venv" class="md-nav__link">
     Conda vs VENV
   </a>
@@ -539,6 +546,17 @@ post a link to a simulation, the image of the simulation is included
 in the link.  Since Material supported this, we used the Material theme.
 You can see our <a href="https://chat.openai.com/share/d152cc79-73eb-4112-8be2-f03459d7b312">ChatGPT Design Decision Analysis</a> if you want
 to check our decision process.</p>
+<h2 id="enable-edit-icon">Enable Edit Icon</h2>
+<p>To enable the Edit icon on all pages, you must add
+the edit_uri and the content.action.edit under the theme features area.</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nt">edit_uri</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">edit/master/docs/</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="w">    </span><span class="nt">theme</span><span class="p">:</span>
+<span class="w">        </span><span class="nt">features</span><span class="p">:</span>
+<span class="w">            </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">content.action.edit</span>
+</code></pre></div></td></tr></table></div>
 <h2 id="conda-vs-venv">Conda vs VENV</h2>
 <p>There are two choices for virtual environments.  We can
 use the native Python venv or use Conda.  venv is simle
