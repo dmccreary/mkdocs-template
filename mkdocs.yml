@@ -21,7 +21,7 @@ theme:
   name: material
   extra_css:
     - styles/custom.css
-  # logo: img/my-icon.png
+  logo: img/logo.png
   # favicon: img/my-icon.png
   palette:
     primary: 'blue'
@@ -48,6 +48,8 @@ markdown_extensions:
   - attr_list
   - pymdownx.highlight:
       linenums: true
+extra_css:
+   - css/extra.css
 #extra:
 #  analytics:
 #    provider: google
