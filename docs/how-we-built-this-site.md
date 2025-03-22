@@ -174,5 +174,14 @@ Note that I am running on a Mac with Apple silicon.  This means that the
 image libraries that brew downloads must be specific to the Mac Arm
 instruction set.
 
+## Image Generation and Compression
+
+I have used ChatGPT to create most of my images.  However, they are too
+large for most websites.  To compress them down I used
+ [https://tinypng.com/](https://tinypng.com/) which is a free tool
+ for compressing png images without significant loss of quality.
+ The files created with ChatGPT are typically around 1-2 MB.  After
+ using the TinyPNG site the size is typically around 200-300KB.
+
 * [Cover images for blog post #4364](https://github.com/squidfunk/mkdocs-material/issues/4364)
 * [Discussion on overriding the Social Card Image](https://github.com/squidfunk/mkdocs-material/discussions/5162)
