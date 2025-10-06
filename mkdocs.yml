@@ -13,6 +13,8 @@ nav:
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
+  - Feedback: feedback.md
+  - License: license.md
   - Contact: contact.md
  
 # CoderDojo Microsite Standards from here down
@@ -40,7 +42,7 @@ theme:
     - content.action.edit
 plugins:
   - search
-#  - social
+  - social
 markdown_extensions:
   - admonition
   - md_in_html
@@ -51,6 +53,8 @@ markdown_extensions:
       linenums: true
 extra_css:
    - css/extra.css
+extra_javascript:
+   - js/extra.js
 #extra:
 #  analytics:
 #    provider: google
