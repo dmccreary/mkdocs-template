@@ -1,5 +1,6 @@
+# template for a general MicroSite built with mkdocs and the material theme
 site_name: Mkdocs Template Site
-site_description: 'DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_description: 'Description of microsite'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
 site_url: 'https://dmccreary.github.io/mkdocs-template/'
@@ -17,14 +18,14 @@ nav:
   - License: license.md
   - Contact: contact.md
  
-# CoderDojo Microsite Standards from here down
+# Dan's Microsite Standards from here down
 
 theme:
   name: material
   extra_css:
     - styles/custom.css
   logo: img/logo.png
-  # favicon: img/my-icon.png
+  favicon: img/favicon.ico
   palette:
     primary: 'blue'
     accent: 'orange'
@@ -44,11 +45,12 @@ plugins:
   - search
   - social
 markdown_extensions:
-  - admonition
+  # Order is important!
   - md_in_html
+  - attr_list
+  - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - attr_list
   - pymdownx.highlight:
       linenums: true
 extra_css:
